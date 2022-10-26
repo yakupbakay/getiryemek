@@ -1,1 +1,148 @@
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 150vh;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* BUNDAN SONRASI BENİM KURALLARIM */
+
+.header{
+    background: #4c3398;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+.header .sol-menu ul{
+    display: flex;
+}
+.header .sol-menu ul li{
+ margin-right: 2px;
+}
+.header .sol-menu ul li:hover{
+    background: #5d3ebc;
+    border-radius: 10px 10px 0 0;
+}
+.header .sol-menu ul li:nth-child(1){
+    background: #5d3ebc;
+    border-radius: 10px 10px 0 0;    
+}
+/*
+.header .sol-menu ul li:nth-child(3){
+    background: red;
+}
+.header .sol-menu ul li:last-child{
+    background: #000;
+}*/
+.header .sol-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding:0  10px;
+    display: inline-block;
+    line-height: 60px;
+}
+.header .sol-menu ul li:first-child a{
+    color: #ffd300;
+}
+.header .sag-menu ul{
+    display: flex;
+}
+.header .sag-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 12px;
+}
+.header .sag-menu ul li a i{
+    font-size: 18px;
+    margin: 0 8px;
+    color: #ffd300;
+}
+.gorsel{
+    background: url(../images/getir-mainpage-1.jpg);
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+    top: 70px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.gorsel .saydam{
+    background: rgba(76, 51, 152, .3);
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gorsel .saydam .sol-blok h1{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 15px;
+    text-shadow: 20px 10px 3px #000;
+}
+.gorsel .saydam .sag-blok{
+    background: #fff;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
